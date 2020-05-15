@@ -1,3 +1,0 @@
-#!/Users/willybreese/NYU/VisML/compression-algo-app/venv/bin/python3
-from numba.pycc import main
-main()
