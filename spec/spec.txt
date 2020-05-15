@@ -1,0 +1,26 @@
+<front end layout>
+
+Upload File (upload audio file button)
+Choose Algorithm (dropdown menu)
+Enter param (enter one int)
+compress (button, call to server with : audio file(double[]),
+                                        algorithm name(string),
+                                        param(int))
+
+    call returns double[]
+
+Graph 1 - pre-compression
+Graph 2 - post-compression
+Graph 3 - loss (pre-compression - post-compression)
+
+<end front end spec>
+
+<compression algo Class spec>
+
+class CompressionAlgorithm(wav audioFile, int otherParam):
+    public function getName() return String
+    public function getAudioAsDoubleArray() return Double[]
+    public function compressAudio() return Double[]
+    public function getLoss() return Double[]
+    public function getLossSum() return Double
+    public function getCompressedFile() return Double[]

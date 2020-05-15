@@ -1,0 +1,23 @@
+#param-choices {
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  border-bottom: 0px solid #714bfa;
+}
+
+#param-choices form {
+  margin: 0;
+  padding: 10;
+  border: 0px solid #714bfa;
+  border-bottom: 0px solid #714bfa;
+}
+
+#param-choices input {
+  margin: 0;
+  padding: 15px;
+  border: 0px solid #714bfa;
+  border-bottom: 2px solid #714bfa;
+  font-size: 30px;
+  color: #714bfa;
+  text-align: center;
+}

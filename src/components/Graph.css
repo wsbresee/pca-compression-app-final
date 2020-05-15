@@ -1,0 +1,15 @@
+.graph {
+  height: 45vh;
+  width: 100%;
+  padding: 20px;
+}
+
+.graph svg {
+  height: 100%;
+  width: 100%;
+}
+
+.graph-title {
+  text-align: center;
+  margin-bottom: 0px;
+}

@@ -1,0 +1,47 @@
+#file-upload {
+  width: 40%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#upload-box {
+  border: 2px dashed #714bfa;
+  height: 60%;
+  width: 100%;
+  color: #714bfacc;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#upload-box.dragging {
+  border: 2px dashed #714bfaaa;
+  color: #714bfaaa !important;
+}
+
+#upload-box.has-file {
+  border: none;
+  color: #714bfa;
+}
+
+.input-label {
+  cursor: pointer;
+}
+
+.input-label:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  position: absolute;
+  visibility: hidden;
+}
+
+.input-file {
+  visibility: hidden;
+  position: absolute;
+}

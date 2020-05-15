@@ -1,0 +1,48 @@
+{
+  "name": "audio-compression",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "run-s build start-server",
+    "start-server": "flask run",
+    "build": "parcel build src/index.html --out-dir public",
+    "flask-install": "run-s build-venv build-flask",
+    "build-venv": "python3 -m venv venv",
+    "build-flask": "source venv/bin/activate & pip install flask python-dotenv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsbresee/compression-algo-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wsbresee/compression-algo-app/issues"
+  },
+  "homepage": "https://github.com/wsbresee/compression-algo-app#readme",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-regular-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "axios": "^0.19.2",
+    "d3": "^5.16.0",
+    "node-sass": "^4.14.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "warpjs": "^1.0.8"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "cssnano": "^4.1.10",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.4"
+  }
+}
